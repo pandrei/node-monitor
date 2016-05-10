@@ -1,0 +1,15 @@
+{
+  "name": "remote-monitor-client",
+  "version": "1.0.0",
+  "description": "client part of the remote monitoring tool",
+  "main": "client.js",
+  "scripts": {
+    "test": "node client.js"
+  },
+  "author": "Andrei Popescu",
+  "license": "MIT",
+  "dependencies": {
+    "os-monitor": "^1.0.4",
+    "socket.io-client": "^1.4.6"
+  }
+}

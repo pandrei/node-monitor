@@ -1,0 +1,16 @@
+{
+  "name": "renote-monitor-server",
+  "version": "1.0.0",
+  "description": "server part of the remote monitoring tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Andrei Popescu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6"
+  }
+}
